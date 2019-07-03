@@ -1,0 +1,5 @@
+# This expression is for the Offset Effect
+# and loops along the X axis based on the width of the layer
+
+x = (width / thisComp.duration) * time;
+value + [x, 0]
