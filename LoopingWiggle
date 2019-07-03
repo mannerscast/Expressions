@@ -1,0 +1,10 @@
+# Updated from Dan Ebberts at http://motionscript.com/design-guide/looping-wiggle.html
+# I prefer using ease() instead of linear()
+
+freq = 1;
+amp = 110;
+loopTime = thisComp.duration;
+t = time % loopTime;
+wiggle1 = wiggle(freq, amp, 1, 0.5, t);
+wiggle2 = wiggle(freq, amp, 1, 0.5, t - loopTime);
+linear(t, 0,  loopTime, wiggle1, wiggle2)
