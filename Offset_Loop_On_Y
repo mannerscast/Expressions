@@ -1,0 +1,5 @@
+# This expression is for the Offset Effect
+# and loops along the Y axis based on the height of the layer
+
+y = (height / thisComp.duration) * time;
+value + [0, y]
