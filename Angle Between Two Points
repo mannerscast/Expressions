@@ -1,0 +1,8 @@
+//Find angle between two points
+this_point = position.valueAtTime(time + .05);
+that_point = position.valueAtTime(time - thisComp.layer("Origin").effect("Rotation Offset")("Slider"));
+delta = sub(this_point, that_point);
+angle = Math.atan2(delta[1], delta[0]);
+ang = radiansToDegrees(angle);
+r = 10 * Math.sin((time - index) * 10);
+(ang)%360
