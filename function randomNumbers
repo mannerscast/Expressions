@@ -1,0 +1,9 @@
+function randomNumbers(n, limit){
+	randoms = [];
+	for (i=0; i<=n; i++) {
+		seedRandom(i, true);
+		randoms.push(Math.floor(random(0, limit)));
+		}
+	return randoms
+}
+randomNumbers(10, 8)
