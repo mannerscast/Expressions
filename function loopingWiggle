@@ -1,0 +1,16 @@
+function loopingWiggle(freq, amp){
+	if (amp) {
+		freq = freq;
+		amp = amp;
+	} else {
+		freq = 1;
+		amp = 100;
+	}
+	loopTime = thisComp.duration;
+	t = time % loopTime;
+	wiggle1 = wiggle(freq, amp, 1, 0.5, t);
+	wiggle2 = wiggle(freq, amp, 1, 0.5, t - loopTime);
+	w = ease(t, 0,  loopTime, wiggle1, wiggle2)
+	return w
+}
+loopingWiggle(.25, 400)
