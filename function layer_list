@@ -1,0 +1,11 @@
+function layer_list() {
+the_layers = [];
+	N = thisComp.numLayers;
+	for (i=1; i<= N; i++){
+		the_comp = thisComp.layer(i);
+		the_layers.push("\r" + the_comp.name);
+	}
+return the_layers	
+}
+
+layer_list()
