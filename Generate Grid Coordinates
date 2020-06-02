@@ -1,0 +1,20 @@
+var rows = 9;
+var columns = 16;
+pad = 120;
+ind = index - 1;
+text_block = [];
+grid_block = [];
+
+for (i = 0; i < columns; i++){
+	for (j = 0; j < rows; j++){
+			text_block.push(i+", "+j + "\r")
+		}
+
+	}
+
+theText = text_block[index - 1] + "";
+
+
+x = theText.substr(0,1);
+y = theText.substr(3,1);
+[y * pad + pad, x * 50 + pad]
