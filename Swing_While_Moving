@@ -1,0 +1,6 @@
+//Swing while moving;
+t = (2 / 1) * time;
+d = position[0];
+d1 = position.valueAtTime(time - .1)[0];
+delta = (d - d1) * .9;
+wobble = delta * Math.sin(t)
