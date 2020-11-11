@@ -1,0 +1,20 @@
+// Short Date change with slider
+
+s = effect("Slider Control")("Slider");
+mMax = 31;
+d = Math.floor(s * 1) % mMax;
+dd = (d * 1) + 1;
+m = Math.floor(s  / mMax) + 1;
+mm = ((m % 12) * 1) + 1;
+y = 2012;
+yyyy = y + Math.floor(s / 360);
+if(dd<10)
+{
+dd='0'+dd;
+}
+
+if(mm<10)
+{
+mm='0'+mm;
+}
+mm + "/" + dd + "/" + yyyy
