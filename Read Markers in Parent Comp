@@ -1,0 +1,29 @@
+// Read previous marker on precomp in parent comp and return the comment
+// This current expression is set up for changing the audio levels
+
+P = comp("Comp 1");
+C = [thisComp.name];
+n = 0;
+m = P.layer(C[0]);
+if (m.marker.numKeys > 0){
+  n = m.marker.nearestKey(time).index;
+  if (m.marker.key(n).time > time){
+    n--;
+  }
+} 
+
+if (n == 0){
+  0
+}else{
+  temp = m.marker.key(n);
+  myComment = temp.comment;
+  t = time - temp.time;
+}
+
+if (myComment == "ON") {
+	a = 0
+} else {
+	a = -80
+}
+
+[a,a]
