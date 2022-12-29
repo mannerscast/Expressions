@@ -1,5 +1,5 @@
-# Updated from Dan Ebberts at http://motionscript.com/design-guide/looping-wiggle.html
-# I prefer using ease() instead of linear()
+// Updated from Dan Ebberts at http://motionscript.com/design-guide/looping-wiggle.html
+// I prefer using ease() instead of linear()
 
 freq = 1;
 amp = 110;
