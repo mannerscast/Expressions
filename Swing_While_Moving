@@ -1,0 +1,13 @@
+//Swing while moving;
+t = (2 / 1) * time;
+d = position[0];
+d1 = position.valueAtTime(time - .1)[0];
+delta = (d - d1) * .5;
+wobble = delta * Math.sin(t);
+wobble * .2
+
+//Code for chain delay
+//Requires a Slider control named "Chain Delay" to be on the master Parent
+i = index - 1;
+s = thisComp.layer("Loop 1").effect("Chain Delay")("Slider");
+thisComp.layer(i).transform.rotation.valueAtTime(time + s) * 1.1
