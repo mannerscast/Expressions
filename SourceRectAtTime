@@ -1,0 +1,5 @@
+a = thisComp.layer("Text1").sourceRectAtTime();
+height = a.height;
+width = a.width;
+top = a.top;
+left = a.left;

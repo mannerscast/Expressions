@@ -1,0 +1,20 @@
+LocationInfo1	=	['Johannesburg has not traditionally been known as a tourist destination, but the city is a transit point for connecting flights to Cape Town, Durban, and the Kruger National Park.']
+startLoc1	=	['Mobile, AL']
+endLoc1		=	['Johannesburg,\rSouth Africa']
+startPos1	=	[750, 500]
+endPos1  	=	[1750, 1000]
+
+LocationInfo2	=	['Located at the junction of the Mobile River and Mobile Bay on the northern Gulf of Mexico, the city is the only seaport in Alabama.']
+startLoc2	=	['Johannesburg,\rSouth Africa']
+endLoc2		=	['Mobile, AL']
+startPos2	=	[1750, 1000]
+endPos2  	=	[750, 500]
+
+LocationInfo3	=	['The city stretches across 117 small islands in the marshy Venetian Lagoon along the Adriatic Sea in northeast Italy']
+startLoc3	=	['Sau Paulo,\rBrazil']
+endLoc3		=	['Venice, Italy']
+startPos3	=	[1116, 902]
+endPos3  	=	[1657, 383]
+
+;
+

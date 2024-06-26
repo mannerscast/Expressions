@@ -1,0 +1,9 @@
+// LEGEND - INFO[0], endLoc[1], startLoc[2], endCoord[3], startCoord[4]
+
+MapAuto1	=	['Johannesburg has not traditionally been known as a tourist destination, but the city is a transit point for connecting flights to Cape Town, Durban, and the Kruger National Park.', 'Johannesburg,\rSouth Africa', 'Mobile, AL', 1750, 1000, 750, 500]
+
+MapAuto2	=	['Located at the junction of the Mobile River and Mobile Bay on the northern Gulf of Mexico, the city is the only seaport in Alabama.', 'Mobile, AL', 'Johannesburg,\rSouth Africa', 750, 500, 1750, 1000]
+
+
+;
+
