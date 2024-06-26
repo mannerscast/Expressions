@@ -3,3 +3,4 @@ height = a.height;
 width = a.width;
 top = a.top;
 left = a.left;
+center = [width * .5, height * .5];
