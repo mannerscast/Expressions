@@ -1,0 +1,15 @@
+// Set variables for sprite dimensions and layout
+var spriteWidth = 256;    // Width of each sprite frame
+var spriteHeight = 256;   // Height of each sprite frame
+var framesPerSprite = 2;  // Number of frames per sprite
+var spritesPerRow = 8;    // Number of sprites in each row
+
+// Calculate the current frame index
+var currentFrame = timeToFrames(time);
+
+// Calculate the sprite index (X and Y)
+var spriteIndex = Math.floor(currentFrame / framesPerSprite); // Which sprite we're on
+var x = (spriteIndex % spritesPerRow) * spriteWidth;          // X position
+var y = Math.floor(spriteIndex / spritesPerRow) * spriteHeight; // Y position
+
+[x, y]
